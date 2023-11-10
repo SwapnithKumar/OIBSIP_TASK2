@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgba(221, 143, 156, 0.836);
+    min-height: 100vh;
+    width: 1000px;
+    border: 10px solid black;
+    margin-left: 150px;
+
+}
+.heading{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.heading h1{
+    font-size:40px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.heading h4{
+    font-size: 30px;
+    text-align: end;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.image{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image,img{
+    width: 250px;
+    height:280px;
+}
+.about{
+    margin-top: 60px;
+
+}
+.about h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.about p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.1px;
+    text-align: justify;
+}
+.death h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.death p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.1px;
+    text-align: justify;
+}
+.bio{
+    margin: 50px 0;
+
+
+}
+.bio h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.bio ul{
+    margin-left: 50px;
+
+}
+.bio li{
+    margin-left: 50px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    letter-spacing: 1.1px;
+
+}
+footer{
+    margin: 50px 0;
+}
+footer p{
+    text-align: end;
+}
